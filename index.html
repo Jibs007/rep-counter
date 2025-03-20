@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Rep Counter</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main id="container">
+      <h1 id="tittle">Reps Completed</h1>
+      <h2 id="count-el">0</h2>
+      <div class="ari-btns">
+        <button class="btn" onclick="plus()" id="plus">+</button>
+        <button class="btn" onclick="minus()" id="minus">-</button>
+      </div>
+      <button class="btn" id="save-btn" onclick="save()">SAVE</button>
+      <h3 id="entries">Previous Entries:</h3>
+    </main>
+    <button class="btn" id="reset-btn" onclick="reset()">RESET</button>
+    <script src="app.js"></script>
+  </body>
+</html>

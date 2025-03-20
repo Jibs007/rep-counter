@@ -1,0 +1,60 @@
+body {
+  background-color: whitesmoke;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+
+#container {
+  background-image: url(images/gym.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 30px auto;
+  max-width: 500px;
+  height: 500px;
+  color: white;
+  text-shadow: 0 0 1px black;
+  text-align: center;
+
+  border-radius: 7px;
+}
+
+#count-el {
+  font-size: 50px;
+}
+
+.btn {
+  font-size: 30px;
+  margin: 10px;
+  border: none;
+  color: white;
+}
+
+.ari-btns {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+#plus {
+  width: 80px;
+  background-color: darkgreen;
+  border-radius: 5px;
+}
+
+#minus {
+  width: 80px;
+  background-color: darkblue;
+  border-radius: 5px;
+}
+
+#save-btn {
+  background-color: rebeccapurple;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+#reset-btn {
+  background-color: darkred;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
